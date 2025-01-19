@@ -30,3 +30,18 @@ To enable shell autocompletion for uv commands, run one of the following
 ```powershell
 Add-Content -Path $PROFILE -Value '(& uv generate-shell-completion powershell) | Out-String | Invoke-Expression'
 ```
+
+## Setting up Jupyter Notebook in VsCode
+
+Create a virtual environment using `uv`. 
+```powershell
+uv venv --python 3.13
+```
+This will create a .venv folder in your project directory. `--python 3.13` this code set a specific python interpreter for your environment.
+ 
+<br>
+
+You can just replace the `pythonboilerplate` to your desired name
+```powershell
+python -m ipykernel install --user --name='pythonboilerplate'
+```
