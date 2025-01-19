@@ -38,7 +38,12 @@ Create a virtual environment using `uv`.
 uv venv --python 3.13
 ```
 This will create a .venv folder in your project directory. `--python 3.13` this code set a specific python interpreter for your environment.
- 
+
+ Activate your `.venv` environment.
+ ```powershell
+.venv\Scripts\activate
+```
+
 <br>
 
 You can just replace the `pythonboilerplate` to your desired name
