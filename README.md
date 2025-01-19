@@ -43,10 +43,3 @@ Activate your `.venv` environment.
 ```powershell
 .venv\Scripts\activate
 ```
-
-<br>
-
-You can just replace the `pythonboilerplate` to your desired name
-```powershell
-python -m ipykernel install --user --name='pythonboilerplate'
-```
