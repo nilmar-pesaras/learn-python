@@ -17,7 +17,7 @@ packaging_list.extend(["toothbrush", "phone charger"])
 '''
 You decide you also want to bring a book. Since you left your book near your sunglasses on your kitchen table, you will pack them together. Insert "book" after sunglasses in your packing list.
 '''
-packaging_list.insert(packaging_list.index("sunglasses") + 1, "book")
+packaging_list.insert(3, "book")
 
 # Part D
 '''
