@@ -47,4 +47,6 @@ def alternate_case(string_input) -> str:
     return result
 
 
+input_string: str = "The quick brown fox jumps over the lazy dog"
+
 print(f"alternate_case: {alternate_case(input_string)}")
