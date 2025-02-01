@@ -3,7 +3,6 @@
         "charliermarsh.ruff",
         "ms-python.python",
         "KevinRose.vsc-python-indent",
-        "Codeium.codeium",
         "aaron-bond.better-comments",
         "tamasfe.even-better-toml",
         "ms-toolsai.jupyter",
