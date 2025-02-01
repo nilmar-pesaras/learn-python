@@ -2,6 +2,8 @@ import string
 
 
 # Basic Problem
+
+# Problem 1
 # 1. Write a program that reverses a string.
 # 2. Create a function that counts vowels in a string.
 # 3. Write a program that checks if a string is a palindrome.
@@ -31,31 +33,18 @@ print(f"count_vowels: {count_vowels(input_string)}")
 print(f"is_palindrome: {is_palindrome(input_string)}")
 
 
-# Intermediate Problem
-
-# 1. Write a program that counts words in a string
-# 2. Create a function that removes all punctuation from a string
-# 3. Write a program that converts a string to "Pig latin"
+# Problem 2
+# Create a function that alternates the case of each character in a string.
 
 
-def count_words(
-    string_input,
-) -> int:  # this function counts the number of words in a string
-    return len(string_input.split())
+def alternate_case(string_input) -> str:
+    result: str = ""
+    for i, char in enumerate(string_input):
+        if i % 2 == 0:
+            result += char.upper()
+        else:
+            result += char.lower()
+    return result
 
 
-def remove_punctuation(
-    string_input,
-) -> str:  # this function removes all punctuation from a string
-    return string_input.translate(str.maketrans("", "", string.punctuation))
-
-
-def convert_to_pig_latin(
-    string_input,
-) -> str:  # this function converts a string to "Pig latin"
-    return string_input[1:] + string_input[0] + "ay"
-
-
-print(f"count_words: {count_words(input_string)}")
-print(f"remove_punctuation: {remove_punctuation(input_string)}")
-print(f"convert_to_pig_latin: {convert_to_pig_latin(input_string)}")
+print(f"alternate_case: {alternate_case(input_string)}")
