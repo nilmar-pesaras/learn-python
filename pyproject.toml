@@ -1,7 +1,7 @@
 [project]
 name = "python-boilerplate"
 version = "0.1.0"
-description = "Add your description here"
+description = "Learn python using jupyter notebook"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -13,6 +13,4 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = [
-    "ruff>=0.9.1",
-]
+dev = []

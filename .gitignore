@@ -1,0 +1,9 @@
+# python environment
+.venv 
+
+# ruff plugins
+.ruff_cache
+
+# jupyter notebook
+.ipynb_checkpoints
+
