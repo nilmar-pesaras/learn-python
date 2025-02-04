@@ -4,6 +4,7 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports.isort": "explicit"
         },
-        "editor.defaultFormatter": "charliermarsh.ruff"
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "better-comments.multilineComments": true
     }
 }
